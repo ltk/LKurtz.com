@@ -182,10 +182,16 @@ ul.links, ul.learns {
     padding: 0;
 }
 
-ul.links li a, ul.learns li p {
+ul.links li a, ul.learns li p  {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 0;
+}
+ul.learns li, ul.links li {
+    position: relative;
+}
+ul.learns li .arrow, ul.links li .arrow {
+    position: absolute;
 }
 ul.work {
     list-style: none;
