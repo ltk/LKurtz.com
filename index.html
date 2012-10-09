@@ -36,7 +36,7 @@
         <![endif]-->
 
         <div id="page" class="clearfix">
-            <div id="right-brain">
+            <div id="right-brain"><!-- For the record, the popular right-brain left-brain theory is absolute nonsense. But it provides for an entertaining naming scheme. -->
                 <div class="terminal dark-background">
                     <div class="terminal_output">
                         <p>[<span class="user">Lawson</span> <span class="repo-name">Website</span><span class="repo-branch">{master}</span>]$ intro</p>
@@ -60,22 +60,56 @@
             </div>
             <div id="left-brain">
                 <div id="about-me">
-                    <h1>Hi, I'm Lawson Kurtz</h1>
+                    <h1>I'm Lawson Kurtz</h1>
                     <h2><a href="http://www.thejakegroup.com/about/team/lawson/" title="I write Ruby and PHP for The Jake Group.">I write Ruby &amp; PHP.</a></h2>
                     <hr/>
 
+                    <h3>I like to futz.</h3>
+                    <p class="blockquote">I first touched HTML a little over two years ago. Since then, I’ve mastered HTML, CSS, Javascript, PHP, and MySQL. I’ve now worked for a full year as a <a href="http://www.thejakegroup.com/about/team/lawson/" title="PHP developer at The Jake Group">professional PHP developer</a>, specializing in web application development in CakePHP and custom WordPress development. I learned Ruby on Rails development from the Facebookers and Grouponers at <a href="http://bloc.io/" title="Bloc.io">Bloc.io</a>, and have a solid familiarity with good database design. In my spare time, I write <a href="http://ca2plus.com/checkmate/" title="Checkmate">web applications to help teachers</a>, play with machine learning algorithms in Octave, follow my dreams on <a href="https://www.coursera.org/user/i/b3515012aec7e97757bac36d6dbf5dfe" title="">Coursera</a>, and toy with Java, Unix, and Node.</p>
+                    <hr/>
+                    
                     <h3>I'm a citizen of the Internet.</h3>
-                    <ul>
-                        <li><a href="http://github.com/ltk" title="">GitHub</a></li>
-                        <li><a href="http://stackoverflow.com/users/1157361/lawson-kurtz" title="">StackOverflow</a></li>
-                        <li><a href="http://profiles.wordpress.org/ltkurtz/" title="">WordPress</a></li>
-                        <li><a href="http://www.linkedin.com/pub/lawson-kurtz/3/571/62a" title="">LinkedIn</a></li>
-                        <li><a href="http://twitter.com/lawsonkurtz" title="">Twitter</a></li>
-                        <li><a href="https://www.coursera.org/user/i/b3515012aec7e97757bac36d6dbf5dfe" title="">Coursera</a></li>
+                    <ul class="links">
+                        <li>&rarr;<a href="http://github.com/ltk" title="">GitHub</a></li>
+                        <li>&rarr;<a href="http://stackoverflow.com/users/1157361/lawson-kurtz" title="">StackOverflow</a></li>
+                        <li>&rarr;<a href="http://profiles.wordpress.org/ltkurtz/" title="">WordPress</a></li>
+                        <li>&rarr;<a href="http://www.linkedin.com/pub/lawson-kurtz/3/571/62a" title="">LinkedIn</a></li>
+                        <li>&rarr;<a href="http://twitter.com/lawsonkurtz" title="">Twitter</a></li>
+                        <li>&rarr;<a href="https://www.coursera.org/user/i/b3515012aec7e97757bac36d6dbf5dfe" title="">Coursera</a></li>
                     </ul>
                     <hr/>
 
-                    <h3>I like to build things.</h3>
+                    <h3>I like to build.</h3>
+                    <h4>How much? <a class="building-toggle" href="#" title="#">This much.</a></h4>
+                    
+                    <div class="modal" id="building" tabindex="-1" role="dialog" aria-labelledby="buildingLabel" aria-hidden="true">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="buildingLabel">I <em>live</em> to build.</h3>
+                      </div>
+                      <div class="modal-body">
+                        <p>The people around me have always seemed content to socialize, play, experience, or just exist. I marvel at their satisfaction, but never truly understand it. I find my purpose in the things I create.</p> 
+
+                        <p>I was born and bred to build. Ever since I possessed the manual dexterity to stack, snap, or shove, I’ve been building. It started with legos, but toy bricks wouldn’t satisfy me for long. I needed to make something real. Friends blew their cash on Pokemon cards. Weirdos. I saved mine and bought a MIG welder. Then a drill press. Then an angle grinder.</p>
+
+                        <p>In grade school my building obsession amounted to little more than some dramatically over-engineered school projects (truth be told my fully welded steel ping pong catapult performed only marginally better than my classmates’ rubber band and paint stirrer contraptions), an occasional porch for a local building charity, and an authentic Roman catapult here or there. I had the time and drive to learn and build more, but I was missing an essential component: money.</p>
+
+                        <p>Building physical things is damn expensive. You need tools, raw materials, and space, none of which is cheap. It’s impossible to sustain any learning velocity when buying a tool precludes the purchase of the materials with which it is designed to interface. As I grew older, my ability to bankroll material acquisition became increasingly unable to keep up with my desire to learn. When I left for college, I lost my tools, my garage, and my building-sustained sanity, but I gained an important insight. There existed a whole other world where building was free, and the things you build are accessible to the entire world.</p>
+
+                        <p>Just over two years ago I borrowed a book from the library, “Head First HTML with CSS”, and by the next morning, had built my first website. It was incredible. Not the website (it absolutely sucked), but the experience. HTML was the gateway drug that would lead to my new building obsession.</p>
+
+                        <p>Since then I’ve been on a learning and building binge. Two years, countless websites and several web applications later, I am just now starting to feel limited in my ability to learn, and that’s where Bloc comes in:</p>
+
+                        <p>1) If there is one downside to learning, it’s the discovery of the true extent of how much more there is to learn. Every step forward reveals a dozen new paths begging to be followed. Without strict focus, my learning efforts could easily diffuse in a million directions. Being a part of Bloc would center my efforts around a single, solid curriculum.</p>
+
+                        <p>2) The best way to learn new tools and techniques is to put them to use on real projects, but with real projects come real responsibilities. Ongoing maintenance tasks have begun to seriously eat away at my schedule, so it’s more important for me than ever that I pursue the highest efficiency educational experiences possible.</p> 
+
+                        <p>3) I need industry knowledge. The nearly limitless amount of resources on the Internet makes it possible for people like me to self-teach themselves enough to build legitimate web applications. But to really take a project to the next level, a certain amount of professional software engineering experience is a must. I didn’t take any CS courses in school, but I’d love to learn from someone who has!</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                      </div>
+                    </div>
                     <ul class="work clearfix">
                         <li><a href="http://www.hereprettykitty.com/" title="#"><img src="img/work/here-pretty-kitty.png" alt="Here Pretty Kitty" /></a></li>
                         <li><a href="http://www.lkurtz.com/colorful/" title="#"><img src="img/work/colorful-js.png" alt="Colorful.js" /></a></li>
@@ -85,11 +119,17 @@
                     </ul>
                     <hr/>
 
-                    <h3>I want to let you know:</h3>
-                    <p class="blockquote">I first touched HTML a little over two years ago. Since then, I’ve mastered HTML, CSS, Javascript, PHP, and MySQL. I’ve now worked for a full year as a <a href="http://www.thejakegroup.com/about/team/lawson/" title="PHP developer at The Jake Group">professional PHP developer</a>, specializing in web application development in CakePHP and custom WordPress development. I learned Ruby on Rails development from the Facebookers and Grouponers at <a href="http://bloc.io/" title="Bloc.io">Bloc.io</a>, and have a solid familiarity with good database design. In my spare time, I write <a href="http://ca2plus.com/checkmate/" title="Checkmate">web applications to help teachers</a>, play with machine learning algorithms in Octave, follow my dreams on <a href="https://www.coursera.org/user/i/b3515012aec7e97757bac36d6dbf5dfe" title="">Coursera</a>, and toy with Java, Unix, and Node.</p>
+                    <h3>I like to learn.</h3>
+                    <ul class="learns">
+                        <li>&rarr;<p>I studies Rails with the geniuses at <a href="http://bloc.io" title="Bloc.io">Bloc.io</a>.</p></li>
+                        <li>&rarr;<p>I'm an <a href="http://news.ycombinator.com/" title="This is my favorite news source.">industry news</a> addict. Just ask my girlfriend.</p></li>
+                        <li>&rarr;<p><a href="https://www.coursera.org/user/i/b3515012aec7e97757bac36d6dbf5dfe" title="I'm a Courseran.">Free courses</a>? <a href="http://itunes.apple.com/us/itunes-u/programming-methodology/id384232896" title="Thanks Mehran!">Yes please.</a></p></li>
+                        <li>&rarr;<p>I went to <a href="http://duke.edu" title="Go Devils!">school</a> to study <a href="http://en.wikipedia.org/wiki/Neuroscience" title="I like brains.">brains</a>.</p></li>
+                    </ul>
                     <hr/>
 
-                    <h3>I want you to get in touch.</h3>
+                    <h3>I want to get in touch.</h3>
+                    <h4>But first I need your digits (email address).</h4>
                     <form class="form-vertical" id="get-in-touch">
                         <div class="controls">
                             <input class="full-width input-large" type="text" name="email" placeholder="What's your email address?" />
