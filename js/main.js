@@ -29,6 +29,7 @@ $("form").submit(function() {
 	  	$(".form-errors").hide();
 	  	$(".form-success").text("Thanks! I'll be in touch with you soon.").show();
 	  	$("form").hide();
+	  	$("#you-first").text("Now it's my turn.");
 	  } else {
 	  	$(".form-errors").text("Hmmm... I didn't get your message. Try again?").show();
 	  }  
