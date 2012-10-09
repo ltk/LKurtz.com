@@ -17,6 +17,11 @@ if( isset( $_POST ) ) {
              . "Skype: " . $skype . "\n"
              . "Message: " . $message;
 
-    mail( 'lawson.kurtz@gmail.com', 'Contact Submission from LKurtz.com', $message );  
+    if( mail( 'lawson.kurtz@gmail.com', 'Contact Submission from LKurtz.com', $message ) ) {
+        echo "yep";
+    } else {
+        echo "nope";
+    }
+} else {
+    echo "nope";
 }
-header('Location: index.html');

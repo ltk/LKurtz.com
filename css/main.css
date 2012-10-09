@@ -53,7 +53,8 @@ hr {
 .terminal {
     font-family: 'Ubuntu Mono', sans-serif;
     font-size:1em;
-    color:#CCC;
+    /*color:#CCC;*/
+    color: #666;
     height: 100%;
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
@@ -66,7 +67,8 @@ hr {
     margin-bottom: 7px;
 }
 .terminal a {
-    color: #CCC;
+    /*color: #CCC;*/
+    color: #666;
     text-decoration: none;
 }
 
@@ -96,7 +98,8 @@ hr {
 	margin-bottom: 0.5em;
 }
 .terminal ul li a {
-	color: coral;
+	/*color: coral;*/
+    color: #9E5135;
 }
 .terminal-h {
     font-size: 1em;
@@ -105,10 +108,12 @@ hr {
     margin: 0 0 7px 0;
 }
 .repo-name {
-    color: #3CE3A6;
+    /*color: #3CE3A6;*/
+    color: #1C8860;
 }
 .repo-branch {
-    color: #0384DC;
+    /*color: #0384DC;*/
+    color: #185D8B;
 }
 
 @keyframes cursor
@@ -292,7 +297,15 @@ a.more-work:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
 }
-
+p.form-errors, p.form-success {
+    display: none;
+}
+p.form-errors {
+    color: #B61818;
+}
+p.form-success {
+    color: #119211;
+}
 form .full-width {
 	width: 100%;
 	padding: 20px 15px;

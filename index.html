@@ -40,7 +40,7 @@
                 <div class="terminal dark-background">
                     <div class="terminal_output">
                         <p>[<span class="user">Lawson</span> <span class="repo-name">Website</span><span class="repo-branch">{master}</span>]$ intro</p>
-                        <h1 class="terminal-h">Hi, I'm Lawson</h1>
+                        <h1 class="terminal-h">I'm Lawson Kurtz</h1>
                         <p>[<span class="user">Lawson</span> <span class="repo-name">Website</span><span class="repo-branch">{master}</span>]$ pwd</p>
                         <h2 class="terminal-h">PHP &amp; Ruby Developer at <a href="http://www.thejakegroup.com/about/team/lawson/" title="The Jake Group" target="_blank">The Jake Group</a></h2>
                         <p>[<span class="user">Lawson</span> <span class="repo-name">Website</span><span class="repo-branch">{master}</span>]$ cd ~/Profile\ Links</p>
@@ -244,17 +244,19 @@
                     </ul>
                     <hr/>
 
-                    <h3>I want to chat.</h3>
+                    <h3>I'd like to chat.</h3>
                     <h4>You go first.</h4>
+                    <p class="form-errors"></p>
+                    <p class="form-success"></p>
                     <form class="form-vertical" id="get-in-touch" action="submit-to-asana.php" method="POST">
                         <div class="controls">
-                            <input class="full-width input-large" type="text" name="email" placeholder="What's your email address?" />
+                            <input id="email" class="full-width input-large" type="text" name="email" placeholder="What's your email address?" />
                         </div>
                         <div class="controls">
-                            <input class="full-width input-large" type="text" name="skype" placeholder="What's your Skype handle?" />
+                            <input id="skype" class="full-width input-large" type="text" name="skype" placeholder="What's your Skype handle?" />
                         </div>
                         <div class="controls">
-                            <textarea class="full-width input-large" name="message"  placeholder="What are you passionate about?"></textarea>
+                            <textarea id="message" class="full-width input-large" name="message"  placeholder="What are you passionate about?"></textarea>
                         </div>
                         <div class="controls">
                             <input class="btn btn-large" type="submit" value="Say Hello." />
