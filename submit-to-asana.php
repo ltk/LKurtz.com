@@ -10,7 +10,7 @@ if( isset( $_POST ) ) {
     foreach( $fields as $field ) {
         $$field = NULL;
         if( isset( $_POST[$field] ) ) {
-            $$field = mysql_real_escape_string( $_POST[$field] );
+            $$field = filter_var( $_POST[$field], FILTER_SANITIZE_STRING );
         }
     }
     $message = "From: " . $email . "\n"
