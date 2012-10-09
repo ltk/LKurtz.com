@@ -356,6 +356,32 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 }
 
+@media (max-width: 480px) {
+  #left-brain h3 {
+    font-size: 1.4em;
+  }
+
+  #left-brain h1, #left-brain h2, #left-brain h3, #left-brain h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul.work li {
+    float: none;
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+  }
+
+  form .full-width {
+    padding: 25px;
+    font-size: 1.1em;
+  }
+
+  form input[type="submit"] {
+    width: 100%;
+  }
+}
 
 
 
