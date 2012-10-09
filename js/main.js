@@ -1,4 +1,5 @@
-$('.building-toggle').on('click', function(e){
+$('.modal-toggle').on('click', function(e){
 	e.preventDefault;
-	$('#building').modal();
+	var target = $(this).attr('href');
+	$(target).modal();
 });

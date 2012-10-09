@@ -274,6 +274,7 @@ ul.work li:hover {
 form .full-width {
 	width: 100%;
 	padding: 20px 15px;
+    font-family: 'Averia Serif Libre', cursive;
 
 	-webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
@@ -292,7 +293,7 @@ form .full-width {
     margin-bottom:20px;
 }
 
-#building {
+.modal {
     display: none;
 }
 
