@@ -25,10 +25,10 @@ $("form").submit(function() {
 	  url: "submit-to-asana.php",
 	  data: { email: email, skype: skype, message: message }
 	}).done(function( msg ) {
-	  alert( "Data Saved: " + msg );
 	  if(msg == 'yep') {
 	  	$(".form-errors").hide();
 	  	$(".form-success").text("Thanks! I'll be in touch with you soon.").show();
+	  	$("form").hide();
 	  } else {
 	  	$(".form-errors").text("Hmmm... I didn't get your message. Try again?").show();
 	  }  
